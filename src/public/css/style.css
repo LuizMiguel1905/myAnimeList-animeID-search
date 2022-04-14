@@ -1,0 +1,43 @@
+.title{
+    margin: 70px;
+    text-align: center;
+    animation: title-animation 1s;
+}
+
+#search{
+    text-align: center;
+    margin: 70px 20px 75px 44%;
+}
+
+.input {
+    text-align: center;
+  }
+.information{
+    margin: 70px;
+    text-align: center;
+    animation: info-animation 1s;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+
+@keyframes title-animation {
+    0%{
+        transform: rotateX(100deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes info-animation {
+    0%{
+        transform: translateY(50px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
